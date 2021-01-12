@@ -1,0 +1,166 @@
+.hamburger_content{
+    position:relative
+}
+.hamburger_content_background{
+    height:100vh;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    z-index: 1;
+    vertical-align: baseline;
+}
+.hamburger_selection_zone{
+    z-index:5;
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    padding-top: 80px;
+}
+.hamburger_content_layer{
+    width: 100%;
+    height:100%;
+	  background: #000000;
+	  opacity: 0.5;
+	  position: absolute;
+}
+.hamburger_icon{
+    z-index: 5;
+    margin:auto;
+    width: 50%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    padding-bottom:40px
+}
+.hamburger_icon>img{
+    z-index: 5;
+}
+.hamburger_icon_font{
+    z-index: 5;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #FCFCFC;
+
+}
+.hamburger_selection_font{
+    z-index: 5;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #FCFCFC;
+    padding-bottom:25px;
+}
+.hamburger_selection_vertical{
+    width:500px;
+    border-bottom: 1px solid #FCFCFC;
+    padding-top:15px;
+    margin:auto;
+}
+flip*/
+.flip{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 43px;
+    text-align: center;
+    color: #FCFCFC;
+    cursor: pointer;
+}
+
+
+/*文章總覽裡面的國家清單*//*文章總覽裡面的國家清單*//*文章總覽裡面的國家清單*//*文章總覽裡面的國家清單*//*文章總覽裡面的國家清單*//*文章總覽裡面的國家清單*/
+.panel{
+   display: none;
+   font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FCFCFC;
+    padding-bottom:25px;
+    cursor: pointer;
+    }
+
+.panel.click{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FCFCFC;
+    padding-bottom:25px;
+    cursor: pointer;
+    }
+
+    .panel > a {
+        position: relative;
+        color:  #FCFCFC;
+        text-decoration: none;
+      }
+      
+      .panel > a:hover {
+        color:  #FCFCFC;
+        cursor: pointer;
+      }
+    
+      .panel > a::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #FCFCFC;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s;
+      }
+    
+      .panel > a:hover::before {
+        visibility: visible;
+        transform: scaleX(1);
+      }
+    
+/*cut*/
+
+.hamburger_selection_vertical{
+    width:500px;
+    border-bottom: 1px solid #FCFCFC;
+    padding-top:15px;
+    margin:auto;
+}
+
+.hamburger_selection_font > a {
+    position: relative;
+    color:  #FCFCFC;
+    text-decoration: none;
+  }
+  
+  .hamburger_selection_font > a:hover {
+    color:  #FCFCFC;
+    cursor: pointer;
+  }
+
+  .hamburger_selection_font > a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #FCFCFC;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .hamburger_selection_font > a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }

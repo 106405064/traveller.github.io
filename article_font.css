@@ -1,0 +1,29 @@
+.article {
+    width: 1028px;
+    margin:0px 206px 0px 206px;
+}
+.article_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color:#544C48;
+    padding-bottom:80px
+
+}
+.article_subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    color: #28666E;
+    padding-bottom:40px;
+}
+.article.paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #544C48;
+    padding-bottom: 40px;
+}

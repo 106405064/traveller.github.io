@@ -1,0 +1,38 @@
+@media(max-width:1024px){
+    .homepage{
+        position:relative;
+    }
+    .homepage_top{
+        position: relative;
+        height:100vh;
+    }
+    .homepage_top_image{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        z-index: 0;
+        vertical-align: baseline;
+    }
+    .homepage_icon{
+        z-index: 5;
+        position:absolute;
+        width: 100%;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        padding-top:200px;
+    }
+    .homepage_icon>img{
+        z-index: 5;
+    }
+    .homepage_icon_font{
+        z-index: 5;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        text-align: center;
+        color: #FCFCFC;
+    }
+}

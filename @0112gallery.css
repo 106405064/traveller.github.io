@@ -1,0 +1,586 @@
+
+body{
+    margin: 0px;
+    background: #fcfcfc;
+  }
+
+  main{
+    position: absolute;
+   /* left: 200px;*/
+  }
+  
+  a.imgbox{
+    text-decoration: none;
+  }
+  
+  #photogrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 150px;
+  }
+  
+  .imgbox {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    flex-grow: 1;
+    /* border: 0px; */
+    margin: 15px;
+    /* box-shadow: 0px 0px 0px 5000px rgba(0,0,0,.5) inset; */
+    transition: transform 200ms;
+    -moz-transition: -moz-transform 200ms; 
+    -webkit-transition: -webkit-transform 200ms; 
+    -o-transition: -o-transform 200ms;
+    justify-content: center;
+    align-items: flex-end;
+    opacity: .6;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 3px #808080;
+  }
+  
+  
+  
+  .box1 {
+    background: url("./images/001.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box2 {
+    background: url("./images/002.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box3 {
+    background: url("./images/003.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box4 {
+    background: url("./images/004.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box5 {
+    background: url("./images/005.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box6 {
+    background: url("./images/006.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box7 {
+    background: url("./images/007.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box8 {
+    background: url("./images/008.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box9 {
+    background: url("./images/009.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box10 {
+    background: url("./images/010.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box11 {
+    background: url("./images/011.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box12 {
+    background: url("./images/012.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+
+
+  
+  .box13 {
+    background: url("./images/013.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box14 {
+    background: url("./images/014.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box15 {
+    background: url("./images/015.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box16 {
+    background: url("./images/016.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box17 {
+    background: url("./images/017.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box18 {
+    background: url("./images/018.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box19 {
+    background: url("./images/019.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box20 {
+    background: url("./images/020.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box21 {
+    background: url("./images/021.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box22 {
+    background: url("./images/022.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box23 {
+    background: url("./images/023.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box24 {
+    background: url("./images/024.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+
+  .box25 {
+    background: url("./images/025.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box26 {
+    background: url("./images/026.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box27 {
+    background: url("./images/027.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box28 {
+    background: url("./images/028.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+
+
+
+
+  .box29 {
+    background: url("./images/029.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box30 {
+    background: url("./images/030.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box31 {
+    background: url("./images/031.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box32 {
+    background: url("./images/032.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box33 {
+    background: url("./images/033.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box34 {
+    background: url("./images/034.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box35 {
+    background: url("./images/035.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box36 {
+    background: url("./images/036.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box37 {
+    background: url("./images/037.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box38 {
+    background: url("./images/038.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box39 {
+    background: url("./images/039.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box40 {
+    background: url("./images/040.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+
+  .box41 {
+    background: url("./images/041.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box42 {
+    background: url("./images/042.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box43 {
+    background: url("./images/043.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box44 {
+    background: url("./images/044.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  .box45 {
+    background: url("./images/045.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box46 {
+    background: url("./images/046.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box47 {
+    background: url("./images/047.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box48 {
+    background: url("./images/048.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box49 {
+    background: url("./images/049.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+
+
+  .box50 {
+    background: url("./images/050.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box51 {
+    background: url("./images/051.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box52 {
+    background: url("./images/052.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box53 {
+    background: url("./images/053.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box54 {
+    background: url("./images/054.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box55 {
+    background: url("./images/055.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box56 {
+    background: url("./images/056.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box57 {
+    background: url("./images/057.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box58 {
+    background: url("./images/058.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box59 {
+    background: url("./images/059.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+
+
+
+
+
+  .box60 {
+    background: url("./images/060.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box61 {
+    background: url("./images/061.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box62 {
+    background: url("./images/062.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box63 {
+    background: url("./images/063.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box64 {
+    background: url("./images/064.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box65 {
+    background: url("./images/065.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box66 {
+    background: url("./images/066.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box67 {
+    background: url("./images/067.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box68 {
+    background: url("./images/068.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box69 {
+    background: url("./images/069.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+
+
+
+
+
+
+
+  .box70 {
+    background: url("./images/070.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box71 {
+    background: url("./images/071.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box72 {
+    background: url("./images/072.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box73 {
+    background: url("./images/073.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box74 {
+    background: url("./images/074.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box75 {
+    background: url("./images/075.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box76 {
+    background: url("./images/076.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box77 {
+    background: url("./images/077.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box78 {
+    background: url("./images/078.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+  
+  .box79 {
+    background: url("./images/079.jpg");
+    background-position: center center;
+    background-size: cover;  
+  }
+
+
+
+
+
+
+
+
+
+
+  
+  .imgbox:hover {  
+    transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -webkit-transform:  scale(1.03);
+    -o-transform: scale(1.03);
+    /* box-shadow: 0px 0px 0px 9000px rgba(0,0,0,0) inset; */
+    /* box-shadow: 0px 0px 0px 1px grey inset; */
+    opacity: 1;
+  }
+  
+  
+  .imgbox:hover .boxtitle {
+    visibility: visible;
+  }
+  
+  
+  .lightbox {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      top: 0;
+      left: 0;
+      background: rgba(0,0,0,.5);
+  }
+  
+  .lightbox:target {
+      outline: none;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lightbox img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+    /*border: solid 2px grey;*/
+  }
+
+  

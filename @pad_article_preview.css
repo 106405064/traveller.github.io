@@ -1,0 +1,71 @@
+@media(max-width:1024px){
+	.article_preview_object {
+		margin-left: auto;
+		margin-right: auto;
+		width: 625px;
+		height: 471px;
+		margin-bottom: 150px;
+		position:relative;
+	}
+
+	.article_preview_layer {
+		position: absolute;
+		width: 100%;
+		height: 471px;
+		background: #FFFFFF;
+		opacity: 0.5;
+		border-radius: 30px;
+		position: absolute;
+	}
+
+	.article_preview_image {
+		height: 471px;
+		width: 100%;
+		border-radius: 30px;
+		position: absolute;
+	}
+
+	.article_preview_title {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 32px;
+		line-height: 40px;
+		top:45%;
+		width:100%;
+		text-align:center;
+		position: absolute;
+	}
+
+
+	.article_preview_paragraph{
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 28px;
+		color: #544C48;
+		bottom:8%;
+		height: 20%;
+		width: 45%;
+		padding-left:350px;
+		position:absolute;
+	}
+	.article_preview_object:hover {
+        width: 750px;
+        height: 471px;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+        transition: 300ms linear;
+    }
+
+    .article_preview_object.clicked {
+        width: 1024px;
+        height: 1200px;
+        border-radius: unset;
+        cursor: pointer;
+        background-color: #f1f1f1;
+        margin-left: auto;
+        margin-right: auto;
+        transition: 400ms linear;
+    }
+}

@@ -1,0 +1,173 @@
+@media(min-width:1024px){
+		.article_preview{
+			position:relative;
+		}
+		.article_preview_object {
+			margin-left: auto;
+			margin-right: auto;
+			width: 640px;
+			height: 628px;
+			margin-bottom: 200px;
+			position:relative;
+			transition: 200ms linear;
+			overflow-y: hidden;
+			top:-20px;
+		}
+		
+		.article_preview_object:hover {
+			width: 1107px;
+			height: 628px;
+			cursor: pointer;
+			margin-left: auto;
+			margin-right: auto;
+			transition: 300ms linear;
+		}
+	
+		.article_preview_object.clicked {
+			width:100%;
+			height: auto;
+			border-radius: unset;
+			cursor: pointer;
+			background-color: #f1f1f1;
+			margin-left: auto;
+			margin-right: auto;
+			transition: 400ms linear;
+		}
+	
+		.article_preview_layer {
+			position: absolute;
+			width: 100%;
+			height: 628px;
+			background-color: #ffffff;				
+			opacity: 0.5;
+			border-radius: 30px;
+			transition: 200ms linear;
+		}
+	
+		.article_preview_layer:hover {
+			width: 100%;
+			height: 628px;
+			background-color: #f1f1f1;
+			opacity: 0.8;
+			border-radius: unset;
+			transition: 200ms linear;
+		}
+	
+		.article_preview_layer.clicked{
+			display: none;
+		}
+	
+		.article_preview_image {
+			height: 628px;
+			width: 100%;
+			border-radius: 30px;
+			position: absolute;
+			background-repeat: no-repeat;
+			background-position: center;
+			transition: 200ms linear;
+		}
+		
+		.article_preview_object.clicked .article_preview_image {
+			background-image:unset;
+		}
+	
+		.article_preview_image_1 {
+			background-image: url(./toast.svg);
+		}
+		.article_preview_image_2 {
+			background-image: url(./airplane.jpg);
+		}
+		.article_preview_image_3 {
+			background-image: url(./hku.jpg);
+		}
+		.article_preview_image_4 {
+			background-image: url(./九份6.jpeg);
+		}
+		.article_preview_image_5 {
+			background-image: url(./101-2.JPG);
+		}
+		.article_preview_image_6 {
+			background-image: url(./f001.jpg);
+		}
+		.article_preview_image_7 {
+			background-image: url(./f005.jpg);
+		}
+	
+		.article_preview_title {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 40px;
+			padding-top: 290px;
+			padding-left: 120px;
+			position: absolute;
+			width: 400px;
+		}
+	
+		.article_preview_object.clicked .article_preview_title{
+			width: 900px;
+			margin:auto;
+			padding:200px 0px 100px 0px;
+			position:static;
+		}
+	
+		.article_preview_paragraph{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 20px;
+			line-height: 40px;
+			color: #544C48;
+			bottom:8%;
+			height: 20%;
+			width: 45%;
+			padding-left:500px;
+			position:absolute;
+		}
+	
+		.article_preview_paragraph.clicked{
+			display: none;
+		}
+		
+	
+	/*點開之後的文章內容*//*點開之後的文章內容*/
+	.article_clicked{
+		display:flex;
+		flex-direction:column;
+		height:auto;
+		margin:auto;
+		width:900px;
+	}
+	.article_click_image{
+		display: none;
+	}
+	
+	.article_click_image.clicked{
+		display: block;
+		position: absolute;
+		height: 100%;
+	}
+	.article_clicked>img{
+		width:100%;
+	}
+	
+	.article_click_content {
+		display: none;
+		margin-bottom: 200px;
+	}
+	
+	h3{
+		color: #28666e;
+		line-height: 40px;
+		font-weight: bold;
+	}
+	.article_click_content.clicked {
+		display: inline-block;
+		width: 900px;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 40px;
+		color: #544C48;
+		padding-top:20px;
+		margin-bottom:20px;
+	}    
+}

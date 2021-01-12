@@ -1,0 +1,139 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="@desktop_article_preview.css">
+    <link rel="stylesheet" type="text/css" href="@pad_article_preview.css">
+    <link rel="stylesheet" type="text/css" href="@phone_article_preview.css">
+    <link rel="stylesheet" type="text/css" href="@desktop_metadata.css">
+    <link rel="stylesheet" type="text/css" href="@pad_metadata.css">
+    <link rel="stylesheet" type="text/css" href="@phone_metadata.css">
+    <link rel="stylesheet" type="text/css" href="@desktop_article_top.css">
+    <link rel="stylesheet" type="text/css" href="@pad_article_top.css">
+    <link rel="stylesheet" type="text/css" href="@phone_article_top.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<html>
+
+<body>
+    <div class=article_preview>
+        <div class=article_top>
+            <div class=top_metadata>
+                <div class=top_search>
+                    <div class=top_search_icon>
+                        <div class=top_search_icon_round></div>
+                        <div class=top_search_icon_vertical></div>
+                    </div>
+                    <div class=top_search_font>Search...</div>
+                </div>
+                <div class=top_hamburger>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="article_top_title">台灣｜Taiwan</div>
+            <div class=article_top_background style="background-image: url(九份4.jpeg);"></div>
+        </div>
+
+        <div class="article_preview_object article_preview_object_1">
+            <div class="article_preview_image article_preview_image_4"></div>
+            <div class="article_preview_layer"></div>
+            <div class="article_preview_title">九份 Jiufen</div>
+            <div class="article_preview_paragraph">九份隸屬新北市瑞芳區，西元1890年左右，居民在福山宮土地祠距小金瓜不遠處掘到金脈...
+            </div>
+
+            <!--點開後的html-->
+            <div class=article_clicked>
+                <img src="./九份6.jpeg">
+                <div class="article_click_content">
+                    九份隸屬新北市瑞芳區，西元1890年左右，居民在福山宮土地祠距小金瓜不遠處掘到金脈，這使得原本只有九戶人家的貧窮村落，頓時聚集了三、四千戶的淘金人口，當時由海上遙望九份聚落，燈火燦爛，時人稱之為「小上海」、「小香港」。
+                </div>
+                <br>
+                <img src="./九份8.jpeg">
+                <br>
+                <img src="./九份9.jpeg">
+                <div class="article_click_content">
+                    九份也時常被認為是電影《千尋》的靈感來源，儘管宮崎駿本人否認這個說法，眾人還是慕名而來，尤其是阿妹茶樓的建築風格，搭配火紅的燈龍、峭壁上的屋瓦，讓遊客彷彿來到電影場景裡。
+                    <br>九份的特色美食，無疑問是芋圓！
+                    搭配這樣的美景享受Q彈的芋圓是不是讓你也口水直流～
+                </div>
+                <img src="./九份3.jpeg">
+                <img src="./九份2.jpeg">
+                <div class="article_click_content"> 傍晚的九份搖身一變，橘紅的夕陽映照在九份的山海上，看著這赴美景格外享受，但轉眼之間，天空又變成紫色，也別有一番風味～
+
+                    晚上的九份遊客不減，叫賣聲喧嘩的老街、燈火通明的茶樓，讓整座山氣氛都熱鬧了起來！</div>
+            </div>
+        </div>
+        <!--點開後的html-->
+    </div>
+
+    <div class="article_preview_object  article_preview_object_2">
+        <div class="article_preview_image article_preview_image_5"></div>
+        <div class="article_preview_layer"></div>
+        <div class="article_preview_title">Taipei 101</div>
+        <div class="article_preview_paragraph">1999年開始動工，耗時5年，在2004年正式完工！造價580億元，2003年更名為台北101...
+        </div>
+        <!--點開後的html-->
+        <div class=article_clicked>
+            <img src="./101-2.jpg">
+            <div class="article_click_content">
+                1999年開始動工，耗時5年，在2004年正式完工！造價580億元，2003年更名為台北101。於2004年12月至2010年1月間保持著世界第一高樓的紀錄，現今為世界第九高樓。
+            </div>
+            <img src="./101-9.JPG">
+            <img src="./101-1.JPG">
+            <div class=article_click_content>
+                以中國人的吉祥數字「八」做為設計單位，以8層樓為一結構單元，共八組，彼此接續，層層相疊。在外觀上形成有節奏的律動美感，融和竹子節節高昇的意向，希望101的光景能夠綿延不絕！
+            </div>
+            <img src="./101-5.JPG">
+            <div class="article_click_content">
+                最後附上也晚的台北市夜景～
+            <img src="./101-3.JPG">
+            </div>
+            <!--點開後的html-->
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script id="rendered-js">
+
+        /* 當 .article_preview_object_1 的元素被點後，在 .article_preview_object_1 底下的 .article_preview_layer 設定成 .clicked*/
+        $(".article_preview_object_1").click(function () {
+            $(this).toggleClass("clicked");
+            $(".article_preview_object_1 .article_preview_layer").toggleClass("clicked");
+            $(".article_preview_object_1 .article_preview_title").toggleClass("clicked");
+            $(".article_preview_object_1 .article_preview_paragraph").toggleClass("clicked");
+            $(".article_preview_object_1 .article_click_content").toggleClass("clicked");
+            $(".article_preview_object_1 .article_click_image").toggleClass("clicked");
+        });
+
+
+        $(".article_preview_object_2").click(function () {
+            $(this).toggleClass("clicked");
+            $(".article_preview_object_2 .article_preview_layer").toggleClass("clicked");
+            $(".article_preview_object_1 .article_preview_title").toggleClass("clicked");
+            $(".article_preview_object_2 .article_preview_paragraph").toggleClass("clicked");
+            $(".article_preview_object_2 .article_click_content").toggleClass("clicked");
+            $(".article_preview_object_2 .article_click_image").toggleClass("clicked");
+        });
+
+
+        $(".article_preview_object_3").click(function () {
+            $(this).toggleClass("clicked");
+            $(".article_preview_object_3 .article_preview_layer").toggleClass("clicked");
+            $(".article_preview_object_1 .article_preview_title").toggleClass("clicked");
+            $(".article_preview_object_3 .article_preview_paragraph").toggleClass("clicked");
+            $(".article_preview_object_3 .article_click_content").toggleClass("clicked");
+            $(".article_preview_object_3 .article_click_image").toggleClass("clicked");
+        });
+
+    </script>
+</body>
+
+</html>

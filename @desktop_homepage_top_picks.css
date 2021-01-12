@@ -1,0 +1,156 @@
+@media(min-width:1024px){
+    .top_picks{
+        width:100%;
+    }
+    .top_picks_font1{
+        z-index: 5;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 42px;
+        color: #000000;
+        margin-top:200px;
+        padding-left:5%;
+        width:95%
+    }
+    .top_picks_model{
+        position:relative;
+        padding-left:5%;
+        height:1100px;
+    }
+    .top_picks_background{
+        width: 100%;
+        height: 90%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        z-index: 1;
+        vertical-align: baseline;
+        position: absolute;
+    }
+    .top_picks_font2{
+        z-index: 5;
+        position: absolute;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 42px;
+        color: #FCFCFC;
+        width:95%;
+        text-align: right;
+        padding-top:3%;
+    }
+
+    .top_picks_title{
+        z-index: 5;
+        position: absolute;
+        font-weight: 200;
+        font-size: 72px;
+        color: #FCFCFC;
+        border-bottom: 5px solid #5E867D;
+        margin-left:3%;
+        margin-top:400px;
+    }
+    .top_picks_card_zone{
+        position:absolute;
+        margin-top: 570px;
+        margin-left: 10%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    }
+    .top_picks_card{
+        margin-bottom:5px;
+        z-index: 5;
+        width: 300px;
+        height: 480px;
+        background: #FCFCFC;
+        box-shadow: 0px 4px 10px  rgba(0, 0, 0, 0.3);
+        display:flex;
+        flex-direction:column;
+        top:5%;
+        margin-right:20px;
+    }
+    .top_picks_card_image_zone{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        padding:0px 30px 0px 30px;
+    }
+    .top_picks_card_image_zone>img{
+        width: 290px;
+        height: 191.13px;
+        padding-top:10px;
+    }
+    .top_picks_vertical{
+        border-bottom: 2px solid #28666E;
+        width:280px;
+        padding-top:15px;
+    }
+
+    .top_picks_card_title{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: #000000;
+        padding-top:15px;
+        padding-left:15px;
+
+    }
+    .top_picks_card_paragraph{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        color: #544C48;
+        padding-top:25px;
+        padding-left:20px;
+        width:90%;
+    }
+    .top_picks_card_ReadMore{
+        width: 30%;
+        height: 25px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+        color: #FCFCFC;
+        border-top: 2px solid;
+        background-color: #527F7A;
+        border-radius: 25px;
+        margin-left: 190px;
+        margin-top: auto;
+        margin-bottom:auto;
+    }
+
+    .top_picks_card_ReadMore:hover{
+        background-color:#b0b0b0;
+        cursor: pointer;
+    }
+
+    .top_picks_button_zone{
+        padding-left:15%;
+        position:absolute;
+    }
+    .top_picks_button{
+        margin-bottom:1px;
+        margin-top:30px;
+        width:161px;
+        height:68px;
+        padding:0px 30px 0px 30px;
+        background: #FCFCFC;
+        border: 1px solid #28666E;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .top_picks_button_sign>img{
+        width: 18px
+   }
+
+   a{
+       text-decoration: none;
+       color: white;
+   }
+}
