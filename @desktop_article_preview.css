@@ -12,6 +12,7 @@
 			transition: 200ms linear;
 			overflow-y: hidden;
 			top:-20px;
+			border-radius:30px
 		}
 		
 		.article_preview_object:hover {
