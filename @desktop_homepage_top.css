@@ -26,6 +26,8 @@
     }
     .homepage_icon>img{
         z-index: 5;
+        width: 350px;
+        margin: auto;
     }
     .homepage_icon_font{
         z-index: 5;
